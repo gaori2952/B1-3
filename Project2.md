@@ -93,13 +93,6 @@ Paths에서는 날씨 상태를 기준으로 두 개의 경로를 만들었다.
 
 Discord 메시지 예시는 다음과 같다.
 
-```text
-오늘 비가 예상됩니다.
-
-외출할 때 우산을 챙기세요.
-현재 날씨: {{Weather Condition}}
-현재 기온: {{Temperature}}
-```
 <img width="1323" height="106" alt="스크린샷 2026-07-27 오후 8 53 04" src="https://github.com/user-attachments/assets/05b62fd2-b678-42e9-930d-b1f7cf5628fa" />
 
 ##### Path B: 비가 오지 않을 때
@@ -107,12 +100,6 @@ Discord 메시지 예시는 다음과 같다.
 
 Discord 메시지 예시는 다음과 같다.
 
-```text
-현재 비가 오지 않습니다.
-
-현재 기온: {{Temperature}}
-현재 날씨를 즐기세요!
-```
 <img width="1220" height="121" alt="스크린샷 2026-07-27 오후 8 55 43" src="https://github.com/user-attachments/assets/4f2eb93a-2645-4e91-8ad2-d28110e89653" />
 
 #### 4단계: Discord
