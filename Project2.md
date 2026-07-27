@@ -145,16 +145,7 @@ Discord 메시지 예시는 다음과 같다.
 
 아래 화면은 Zapier에서 구현한 전체 워크플로우이다.
 
-워크플로우는 `Schedule by Zapier → Weather by Zapier → Paths → Discord` 순서로 구성하였다.
-
-Paths 이후에는 다음과 같이 두 개의 경로로 나누었다.
-
-- 비가 예상될 때 → Discord 메시지 전송
-- 비가 오지 않을 때 → Discord 메시지 전송
-
-![Zapier 날씨 알림 워크플로우](이미지 경로 입력)
-
-구현 화면에서 Schedule by Zapier가 Trigger로 설정된 것을 확인할 수 있다. 이후 Weather by Zapier가 현재 날씨를 조회하고, Paths가 날씨 상태를 기준으로 두 개의 경로를 구분한다. 각 경로의 마지막에는 Discord의 `Send Channel Message` Action이 연결되어 있다.
+<img width="1161" height="937" alt="스크린샷 2026-07-27 오후 8 25 22" src="https://github.com/user-attachments/assets/dbf07d03-6003-4654-acab-9c9ed4dbf084" />
 
 ---
 
@@ -171,10 +162,8 @@ Paths 이후에는 다음과 같이 두 개의 경로로 나누었다.
 
 외출할 때 우산을 챙기세요.
 현재 날씨: Rain
-현재 기온: 날씨 데이터에 따른 값
 ```
-
-![비가 예상될 때 Discord 실행 결과](이미지 경로 입력)
+<img width="1323" height="106" alt="스크린샷 2026-07-27 오후 8 53 04" src="https://github.com/user-attachments/assets/0a122405-8bb8-48d9-a7f0-7f854d94bdf0" />
 
 ### 비가 오지 않을 때 실행 결과
 
