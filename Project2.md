@@ -91,16 +91,9 @@ Paths에서는 날씨 상태를 기준으로 두 개의 경로를 만들었다.
 ##### Path A: 비가 예상될 때
 조건을 만족하면 Discord에 우산을 챙기라는 메시지를 전송한다.
 
-Discord 메시지 예시는 다음과 같다.
-
-<img width="1323" height="106" alt="스크린샷 2026-07-27 오후 8 53 04" src="https://github.com/user-attachments/assets/05b62fd2-b678-42e9-930d-b1f7cf5628fa" />
-
 ##### Path B: 비가 오지 않을 때
 조건을 만족하면 Discord에 비가 오지 않는다는 일반 날씨 안내 메시지를 전송한다.
 
-Discord 메시지 예시는 다음과 같다.
-
-<img width="1220" height="121" alt="스크린샷 2026-07-27 오후 8 55 43" src="https://github.com/user-attachments/assets/4f2eb93a-2645-4e91-8ad2-d28110e89653" />
 
 #### 4단계: Discord
 
@@ -128,26 +121,15 @@ Discord 메시지 예시는 다음과 같다.
 
 ### 비가 예상될 때 실행 결과
 
-```text
-오늘 비가 예상됩니다.
-
-외출할 때 우산을 챙기세요.
-현재 날씨: Rain
-```
 <img width="1323" height="106" alt="스크린샷 2026-07-27 오후 8 53 04" src="https://github.com/user-attachments/assets/0a122405-8bb8-48d9-a7f0-7f854d94bdf0" />
 
 ### 비가 오지 않을 때 실행 결과
 
-```text
-현재 비가 오지 않습니다.
+<img width="1220" height="121" alt="스크린샷 2026-07-27 오후 8 55 43" src="https://github.com/user-attachments/assets/4f2eb93a-2645-4e91-8ad2-d28110e89653" />
 
-현재 날씨: 날씨 데이터에 따른 값
-현재 기온: 날씨 데이터에 따른 값
-```
-
-![비가 오지 않을 때 Discord 실행 결과](이미지 경로 입력)
 
 실행 결과를 통해 Weather by Zapier에서 전달된 데이터에 따라 Paths의 조건 분기가 정상적으로 작동하고, 해당 조건에 연결된 Discord Action만 실행되는 것을 확인할 수 있었다.
+비가 예상 될 때의 실행결과는 오늘 기준으로 강수 확률 데이터를 입력 받아 정보 없음으로 인해 아무런 정보가 입력되지 않았다. 
 
 ---
 
