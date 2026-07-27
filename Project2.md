@@ -1,3 +1,4 @@
+<img width="1220" height="121" alt="스크린샷 2026-07-27 오후 8 55 43" src="https://github.com/user-attachments/assets/6f0e8ef6-6116-4d48-8ac5-8cadfbd0d4bf" />
 # Project 2. Zapier를 활용한 날씨 기반 자동 알림 시스템
 
 ## 1. 자동화할 반복 업무 정의
@@ -89,15 +90,6 @@ Weather by Zapier는 현재 날씨 정보를 가져오는 Action이다. 이 단�
 Paths에서는 날씨 상태를 기준으로 두 개의 경로를 만들었다.
 
 ##### Path A: 비가 예상될 때
-
-날씨 데이터가 비가 오는 상태에 해당하면 실행되는 경로이다.
-
-조건 예시는 다음과 같다.
-
-```text
-Weather Condition contains Rain
-```
-
 조건을 만족하면 Discord에 우산을 챙기라는 메시지를 전송한다.
 
 Discord 메시지 예시는 다음과 같다.
@@ -109,17 +101,9 @@ Discord 메시지 예시는 다음과 같다.
 현재 날씨: {{Weather Condition}}
 현재 기온: {{Temperature}}
 ```
+<img width="1323" height="106" alt="스크린샷 2026-07-27 오후 8 53 04" src="https://github.com/user-attachments/assets/05b62fd2-b678-42e9-930d-b1f7cf5628fa" />
 
 ##### Path B: 비가 오지 않을 때
-
-날씨 데이터가 비가 오는 상태에 해당하지 않을 때 실행되는 경로이다.
-
-조건 예시는 다음과 같다.
-
-```text
-Weather Condition does not contain Rain
-```
-
 조건을 만족하면 Discord에 비가 오지 않는다는 일반 날씨 안내 메시지를 전송한다.
 
 Discord 메시지 예시는 다음과 같다.
@@ -127,9 +111,10 @@ Discord 메시지 예시는 다음과 같다.
 ```text
 현재 비가 오지 않습니다.
 
-현재 날씨: {{Weather Condition}}
 현재 기온: {{Temperature}}
+현재 날씨를 즐기세요!
 ```
+<img width="1220" height="121" alt="스크린샷 2026-07-27 오후 8 55 43" src="https://github.com/user-attachments/assets/4f2eb93a-2645-4e91-8ad2-d28110e89653" />
 
 #### 4단계: Discord
 
