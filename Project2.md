@@ -80,7 +80,7 @@ Schedule by Zapier는 이번 자동화의 Trigger이다. 사용자가 직접 실
 
 Weather by Zapier는 현재 날씨 정보를 가져오는 Action이다. 이 단계에서 받아온 날씨 상태는 다음 단계인 Paths의 조건 판단에 사용된다.
 
-#### 3단계: Paths
+#### 3단계: Paths & 4단계 : Discord
 
 - 앱: `Paths`
 - 이벤트: `Split into paths`
