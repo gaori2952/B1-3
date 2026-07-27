@@ -1,4 +1,3 @@
-<img width="1220" height="121" alt="스크린샷 2026-07-27 오후 8 55 43" src="https://github.com/user-attachments/assets/6f0e8ef6-6116-4d48-8ac5-8cadfbd0d4bf" />
 # Project 2. Zapier를 활용한 날씨 기반 자동 알림 시스템
 
 ## 1. 자동화할 반복 업무 정의
